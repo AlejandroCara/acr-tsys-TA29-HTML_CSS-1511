@@ -1,0 +1,33 @@
+#anterior, #posterior, #centro {
+    background-color: #A4D3FF;
+    background-image: url(../img/f01.png), url(../img/f02.png), url(../img/f03.png);
+    background-repeat: repeat-x, no-repeat, repeat-x;
+    background-position: bottom, left bottom, left top;
+}
+
+#anterior, #posterior {
+    width: 215px;
+    height: 110px;
+    border: 4px solid blue;
+}
+
+#anterior p, #posterior p{
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#centro {
+    width: 440px;
+    height: 330px;
+    margin-left: 30px;
+    border: 4px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#centro p {
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 18px;
+}

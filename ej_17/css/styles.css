@@ -1,0 +1,168 @@
+#container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+#container div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-image: url(../img/papel_pared.jpg);
+}
+
+#first {
+    background-image: url(../img/mantel.jpg);
+    text-align: center;
+}
+
+#first p {
+    margin: 0;
+    margin-top: 20px;
+}
+
+#container div:nth-child(2) div {
+    background-image: url(../img/mantel.jpg);
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    border: 0px;
+}
+
+#container div:nth-child(2) div p {
+    margin: 0;
+}
+
+#container div:nth-child(3) {
+    background-image: url(../img/mantel.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#container div:nth-child(3) p {
+    margin: 0;
+    margin-top: 20px;
+}
+
+#container div:nth-child(4) {
+    background-color: #F4F0E8;
+}
+
+#container div:nth-child(4) div {
+    background-image: url(../img/mantel.jpg);
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    background-size: cover;
+    border: 0px;
+}
+
+#container div:nth-child(4) p{
+    margin: 0;
+}
+
+#container div:nth-child(5) {
+    background-image: url(../img/face.jpg);
+    background-size: cover;
+}
+
+#container div:nth-child(6) {
+    background-color: #F4F0E8;
+}
+
+#container div:nth-child(6) div {
+    background-image: url(../img/face.jpg);
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    background-size: cover;
+    border: 0px;
+}
+
+#container div:nth-child(6) p{
+    margin: 0;
+}
+
+#container div:nth-child(7) {
+    background-color: #F4F0E8;
+}
+
+#container div:nth-child(7) div {
+    background-image: url(../img/face_long.jpg);
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border: 0px;
+}
+
+#container div:nth-child(7) p{
+    margin: 0;
+    margin-left: 70px;
+    margin-top: 20px
+}
+
+#container div:nth-child(8) {
+    background-image: url(../img/face_short.jpg);
+    text-align: center;
+    background-size: 80px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F4F0E8;
+}
+
+#container div:nth-child(9){
+    background: rgb(195,236,80);
+    background: linear-gradient(90deg, rgba(195,236,80,1) 14%, rgba(0,0,0,1) 100%);
+    text-align: center;
+}
+
+#container div:nth-child(9) p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+#container div:nth-child(10){
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,196,186,1) 4%, rgba(199,157,142,1) 28%, rgba(158,84,58,1) 49%, rgba(143,59,28,1) 89%, rgba(255,255,255,1) 100%);
+    text-align: center;
+}
+
+#container div:nth-child(10) p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+#container div:nth-child(11){
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(165,192,161,1) 23%, rgba(141,176,137,1) 29%, rgba(60,121,54,1) 87%);
+    text-align: center;
+}
+
+#container div:nth-child(11) p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+#container div:nth-child(12){
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(60,121,54,1) 87%);
+    text-align: center;
+}
+
+#container div:nth-child(12) p {
+    margin: 0;
+    margin-top: 15px;
+}

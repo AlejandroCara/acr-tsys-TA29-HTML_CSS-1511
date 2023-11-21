@@ -1,0 +1,41 @@
+table {
+    border-width: 1px;
+    border-color: black;
+    border-style: double;
+    
+}
+
+table, th, td {
+    border: 2px solid #47caf1;
+    border-collapse: collapse;
+}
+
+td {
+    width: 110px;
+}
+
+tr:nth-child(odd) {
+    background-color: #CCFFCC;
+}
+
+tr:nth-child(even) {
+    background-color: #99CC99;
+}
+
+thead td {
+    text-align: center;
+    background-color: #003333;
+    color: #A7DAB0;
+}
+
+#actividad {
+    width: 150px;
+}
+
+.bright {
+    background-color: #CCFFCC;
+}
+
+.dark {
+    background-color: #99CC99;
+}
